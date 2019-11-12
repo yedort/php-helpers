@@ -1,3 +1,5 @@
+<?php
+
 function convert_non_english($str){
 	return iconv('UTF-8', 'ASCII//TRANSLIT//IGNORE', $str);
 }
